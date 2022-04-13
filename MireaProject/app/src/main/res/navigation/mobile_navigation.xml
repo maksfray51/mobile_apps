@@ -27,8 +27,13 @@
         android:name="ru.mirea.poltavets.mireaproject.CalculatorFragment"
         android:label="fragment_calculator"
         tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/musicPlayer"
+        android:name="ru.mirea.poltavets.mireaproject.MusicPlayer"
+        android:label="fragment_music_player"
+        tools:layout="@layout/fragment_music_player" />
 
-<!--    <fragment-->
+    <!--    <fragment-->
 <!--        android:id="@+id/webViewFragment"-->
 <!--        android:name="ru.mirea.sysoeva.mireaproject.WebViewFragment"-->
 <!--        android:label="fragment_web_view"-->

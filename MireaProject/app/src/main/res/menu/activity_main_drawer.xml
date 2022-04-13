@@ -20,5 +20,9 @@
             android:id="@+id/calculatorFragment"
 
             android:title="Calculator" />
+
+        <item
+            android:id="@+id/musicPlayer"
+            android:title="Player"/>
     </group>
 </menu>
