@@ -32,6 +32,21 @@
         android:name="ru.mirea.poltavets.mireaproject.MusicPlayer"
         android:label="fragment_music_player"
         tools:layout="@layout/fragment_music_player" />
+    <fragment
+        android:id="@+id/sensor"
+        android:name="ru.mirea.poltavets.mireaproject.ThreeSensors"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.poltavets.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/recorderFragment"
+        android:name="ru.mirea.poltavets.mireaproject.RecorderFragment"
+        android:label="fragment_recorder"
+        tools:layout="@layout/fragment_recorder" />
 
     <!--    <fragment-->
 <!--        android:id="@+id/webViewFragment"-->

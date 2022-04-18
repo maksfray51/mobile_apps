@@ -1,8 +1,14 @@
 package ru.mirea.poltavets.mireaproject;
 
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -41,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculatorFragment, R.id.musicPlayer)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculatorFragment, R.id.musicPlayer, R.id.sensor,
+                R.id.recorderFragment)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
