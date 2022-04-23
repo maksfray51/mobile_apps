@@ -5,18 +5,24 @@
       <map>
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2645" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2645" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/activity_for_story.xml" value="0.22418478260869565" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/activity_main.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/app_bar_main.xml" value="0.259375" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/card_view.xml" value="0.4" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/content_main.xml" value="0.2586050724637681" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_calculator.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_camera.xml" value="0.2246376811594203" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_first.xml" value="0.259375" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_history.xml" value="0.22418478260869565" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_home.xml" value="0.2246376811594203" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_music_player.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_recorder.xml" value="0.2246376811594203" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_sensor.xml" value="0.2246376811594203" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_settings.xml" value="0.2246376811594203" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_slideshow.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_web_view.xml" value="0.259375" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/nav_header_main.xml" value="0.22418478260869565" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/row_for_recycle_view.xml" value="0.22418478260869565" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/xml/filepaths.xml" value="0.2246376811594203" />
       </map>

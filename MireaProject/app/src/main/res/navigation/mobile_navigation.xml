@@ -47,6 +47,16 @@
         android:name="ru.mirea.poltavets.mireaproject.RecorderFragment"
         android:label="fragment_recorder"
         tools:layout="@layout/fragment_recorder" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.poltavets.mireaproject.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="ru.mirea.poltavets.mireaproject.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
 
     <!--    <fragment-->
 <!--        android:id="@+id/webViewFragment"-->
