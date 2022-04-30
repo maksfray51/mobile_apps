@@ -2,6 +2,7 @@ package ru.mirea.poltavets.mireaproject;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.calculatorFragment, R.id.musicPlayer, R.id.sensor,
-                R.id.recorderFragment, R.id.settingsFragment, R.id.historyFragment)
+                R.id.recorderFragment, R.id.settingsFragment, R.id.historyFragment, R.id.authorizationFragment, R.id.infoFromWebFragment)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
@@ -68,5 +69,10 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public void onClickToAuth(View view) {
+        Intent intent = new Intent(this, AuthWithFirebase.class);
+        startActivity(intent);
     }
 }

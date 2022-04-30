@@ -17,13 +17,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MireaProject">
         <activity
+            android:name=".AuthWithFirebase"
+            android:exported="false" />
+        <activity
             android:name=".activityForStory"
             android:exported="false" />
 
         <service
             android:name=".PlayerService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
         <activity
             android:name=".MainActivity"

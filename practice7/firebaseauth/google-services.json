@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "322978849097",
+    "project_id": "practice7-d028a",
+    "storage_bucket": "practice7-d028a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322978849097:android:3cc8958d382bcdbda77a98",
+        "android_client_info": {
+          "package_name": "ru.mirea.poltavets.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322978849097-k61r2imad93o8jj46tt028sev6n3d654.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3pU2ZdH53IQoNmoqhxJiRG6nSYmcqq4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322978849097-k61r2imad93o8jj46tt028sev6n3d654.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

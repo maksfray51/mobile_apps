@@ -57,6 +57,16 @@
         android:name="ru.mirea.poltavets.mireaproject.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/infoFromWebFragment"
+        android:name="ru.mirea.poltavets.mireaproject.InfoFromWebFragment"
+        android:label="fragment_info_from_web"
+        tools:layout="@layout/fragment_info_from_web" />
+    <fragment
+        android:id="@+id/navHostFragment"
+        android:name="ru.mirea.poltavets.mireaproject.NavHostFragment"
+        android:label="fragment_nav_host"
+        tools:layout="@layout/fragment_nav_host" />
 
     <!--    <fragment-->
 <!--        android:id="@+id/webViewFragment"-->

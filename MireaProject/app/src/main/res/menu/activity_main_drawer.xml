@@ -45,5 +45,13 @@
             android:id="@+id/historyFragment"
             android:title="History"/>
 
+        <item
+            android:id="@+id/authorizationFragment"
+            android:title="Authorization"/>
+
+        <item
+            android:id="@+id/infoFromWebFragment"
+            android:title="Time"/>
+
     </group>
 </menu>

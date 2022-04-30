@@ -12,6 +12,11 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emailpassword_status_fmt">Succes</string>
+    <string name="signed_out">Signed Out</string>
+    auth_failed
+    <string name="auth_failed">authorization failed</string>
+
 
     <string-array name="language_array">
         <item>Russian</item>
