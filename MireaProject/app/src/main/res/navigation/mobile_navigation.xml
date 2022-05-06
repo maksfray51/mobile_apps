@@ -68,9 +68,10 @@
         android:label="fragment_nav_host"
         tools:layout="@layout/fragment_nav_host" />
 
-    <!--    <fragment-->
-<!--        android:id="@+id/webViewFragment"-->
-<!--        android:name="ru.mirea.sysoeva.mireaproject.WebViewFragment"-->
-<!--        android:label="fragment_web_view"-->
-<!--        tools:layout="@layout/fragment_web_view" />-->
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="ru.mirea.poltavets.mireaproject.practice8Data.DataDiscipFragment"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data_discip" />
+
 </navigation>

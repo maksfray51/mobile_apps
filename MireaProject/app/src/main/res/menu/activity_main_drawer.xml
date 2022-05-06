@@ -53,5 +53,10 @@
             android:id="@+id/infoFromWebFragment"
             android:title="Time"/>
 
+        <item
+            android:id="@+id/dataFragment"
+            android:title="DiscIpData"
+            android:icon="@drawable/book" />
+
     </group>
 </menu>

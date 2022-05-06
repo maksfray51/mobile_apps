@@ -14,6 +14,7 @@
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/contetn_main.xml" value="0.22418478260869565" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_calculator.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_camera.xml" value="0.2246376811594203" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_data_discip.xml" value="0.22418478260869565" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_first.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_history.xml" value="0.22418478260869565" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_home.xml" value="0.2246376811594203" />
@@ -27,6 +28,8 @@
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/fragment_web_view.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/nav_header_main.xml" value="0.22418478260869565" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/row_for_recycle_view.xml" value="0.22418478260869565" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/subjects_list.xml" value="0.22418478260869565" />
+        <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/layout/subjects_view.xml" value="0.22418478260869565" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.259375" />
         <entry key="..\:/UNIVERSITY/4th semester/Mobile apps/MireaProject/app/src/main/res/xml/filepaths.xml" value="0.2246376811594203" />
       </map>
