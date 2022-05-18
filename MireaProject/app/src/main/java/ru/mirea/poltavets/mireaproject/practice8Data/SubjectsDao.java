@@ -11,7 +11,7 @@ import java.util.List;
 
 @Dao
 public interface SubjectsDao {
-    @Query("SELECT * FROM AppDataBase")
+    @Query("SELECT * FROM A")
     LiveData<List<Subjects>> getAllDisciplines();
     @Insert
     void insert(Subjects disciplines);

@@ -6,5 +6,5 @@ import androidx.room.RoomDatabase;
 
 @Database(entities = {Subjects.class}, version = 3)
 public abstract class AppDataBase extends RoomDatabase{
-    public abstract SubjectsDao discipDao();
+    public abstract SubjectsDao subjectsDao();
 }

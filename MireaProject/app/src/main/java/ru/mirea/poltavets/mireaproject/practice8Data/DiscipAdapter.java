@@ -13,10 +13,10 @@ import java.util.List;
 import ru.mirea.poltavets.mireaproject.R;
 
 public class DiscipAdapter extends RecyclerView.Adapter<DiscipAdapter.DiscipViewHolder> {
-    private List<Subjects> disciplines;
+    private List<Subjects> subjects;
 
-    public DiscipAdapter(List<Subjects> disciplines) {
-        this.disciplines = disciplines;
+    public DiscipAdapter(List<Subjects> subjects) {
+        this.subjects = subjects;
     }
 
     @NonNull
@@ -29,14 +29,14 @@ public class DiscipAdapter extends RecyclerView.Adapter<DiscipAdapter.DiscipView
 
     @Override
     public void onBindViewHolder(@NonNull DiscipAdapter.DiscipViewHolder holder, int position) {
-        Subjects discipline = disciplines.get(position);
-        holder.name.setText(discipline.name);
-        holder.lecturersName.setText(discipline.lecturersName);
+        Subjects subjects = this.subjects.get(position);
+        holder.name.setText(subjects.name);
+        holder.lecturersName.setText(subjects.lecturersName);
     }
 
     @Override
     public int getItemCount() {
-        return disciplines.size();
+        return subjects.size();
     }
 
     public static class DiscipViewHolder extends RecyclerView.ViewHolder {

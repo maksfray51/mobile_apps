@@ -1,12 +1,14 @@
 package ru.mirea.poltavets.mireaproject.practice8Data;
 
+import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.fragment.app.Fragment;
+//import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ViewModelProvider;
+//import androidx.lifecycle.ViewModelStoreOwner;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -23,7 +25,7 @@ import ru.mirea.poltavets.mireaproject.R;
 
 public class DataDiscipFragment extends Fragment {
     private List<Subjects> disciplines = new ArrayList<>();
-    private DiscipViewModel discipViewModel;
+    private SubjectsViewModel subjectsViewModel;
     private DiscipAdapter discipAdapter = new DiscipAdapter(disciplines);
     private RecyclerView recyclerView;
     private ActivityResultLauncher<Intent> launcher;
@@ -38,10 +40,10 @@ public class DataDiscipFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_data_discip, container, false);
 
         if (getActivity() != null){
-            discipViewModel = new ViewModelProvider(getActivity()).get(DiscipViewModel.class);
-            discipViewModel.getDiscipLiveData().observe(getActivity(), this::onChanged);
+            subjectsViewModel = new ViewModelProvider(getActivity()).get(SubjectsViewModel.class);
+            subjectsViewModel.getDiscipLiveData().observe(getActivity(), this::onChanged);
         }
-        view.findViewById(R.id.btnAddDiscip).setOnClickListener(this::onNewDiscipClicked);
+        view.findViewById(R.id.btnAddDiscip).setOnClickListener(this::onNewSubjectClicked);
 
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getContext());
         recyclerView = (RecyclerView) view.findViewById(R.id.discipRecyclerView);
@@ -56,7 +58,7 @@ public class DataDiscipFragment extends Fragment {
                         Subjects disciplines = new Subjects();
                         disciplines.name = result.getData().getStringExtra(NAME_LABEL);
                         disciplines.lecturersName = result.getData().getStringExtra(TYPE_LABEL);
-                        discipViewModel.addDiscip(disciplines);
+                        subjectsViewModel.addSubject(disciplines);
                         discipAdapter.notifyDataSetChanged();
                     }
                 });
@@ -71,8 +73,8 @@ public class DataDiscipFragment extends Fragment {
         discipAdapter.notifyDataSetChanged();
     }
 
-    private void onNewDiscipClicked(View view){
-        Intent intent = new Intent(getActivity(), AddDiscip.class);
+    private void onNewSubjectClicked(View view){
+        Intent intent = new Intent(getActivity(), AddSubject.class);
         launcher.launch(intent);
     }
 }

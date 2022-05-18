@@ -12,8 +12,8 @@ import ru.mirea.poltavets.mireaproject.MainActivity;
 import ru.mirea.poltavets.mireaproject.R;
 
 public class AddSubject extends AppCompatActivity {
-    private EditText discipName;
-    private EditText discipLectName;
+    private EditText subjectName;
+    private EditText subjectLectName;
     private Button button;
 
     private AppDataBase db;
@@ -25,10 +25,10 @@ public class AddSubject extends AppCompatActivity {
         setContentView(R.layout.subjects_view);
 
         db = App.getInstance().getDatabase();
-        subjectsDao = db.discipDao();
+        subjectsDao = db.subjectsDao();
 
-        discipName = findViewById(R.id.editSubjectName);
-        discipLectName = findViewById(R.id.editLectorName);
+        subjectName = findViewById(R.id.editSubjectName);
+        subjectLectName = findViewById(R.id.editLectorName);
 
         button = findViewById(R.id.btnSaveSubject);
         button.setOnClickListener(this::saveBtn);
@@ -36,11 +36,11 @@ public class AddSubject extends AppCompatActivity {
 
     public void saveBtn(View view) {
 
-        Subjects discip = new Subjects();
-        discip.name = discipName.getText().toString();
-        discip.lecturersName = discipLectName.getText().toString();
+        Subjects subjects = new Subjects();
+        subjects.name = subjectName.getText().toString();
+        subjects.lecturersName = subjectLectName.getText().toString();
 
-        subjectsDao.insert(discip);
+        subjectsDao.insert(subjects);
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);

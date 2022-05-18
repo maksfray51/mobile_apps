@@ -8,13 +8,13 @@ import java.util.List;
 public class SubjectsViewModel extends ViewModel {
     private final LiveData<List<Subjects>> disciplines;
     private final AppDataBase appDatabase = App.instance.getDatabase();
-    private final SubjectsDao subjectsDao = appDatabase.discipDao();
+    private final SubjectsDao subjectsDao = appDatabase.subjectsDao();
 
     public SubjectsViewModel(){
         disciplines = subjectsDao.getAllDisciplines();
     }
 
-    public void AddSubject(Subjects disciplines){
+    public void addSubject(Subjects disciplines){
         subjectsDao.insert(disciplines);
     }
 
