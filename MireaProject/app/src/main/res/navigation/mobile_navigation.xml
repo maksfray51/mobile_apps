@@ -73,5 +73,10 @@
         android:name="ru.mirea.poltavets.mireaproject.practice8Data.DataDiscipFragment"
         android:label="fragment_data"
         tools:layout="@layout/fragment_data_discip" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="ru.mirea.poltavets.mireaproject.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 
 </navigation>
