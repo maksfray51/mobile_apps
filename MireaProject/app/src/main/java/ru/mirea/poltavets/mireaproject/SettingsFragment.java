@@ -36,7 +36,7 @@ public class SettingsFragment extends Fragment implements AdapterView.OnItemSele
         // Required empty public constructor
     }
 
-    Spinner spinnerLanguage;
+    Spinner spinnerLanguage;.
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
     String name, city, language;
@@ -102,11 +102,11 @@ public class SettingsFragment extends Fragment implements AdapterView.OnItemSele
         editor.putString("NAME", name);
         editor.putString("CITY", city);
         editor.putInt("AGE", age);
-        spinnerLanguage.setOnItemClickListener(this::onItemSelected);
         editor.apply();
 
         return view;
     }
+
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {

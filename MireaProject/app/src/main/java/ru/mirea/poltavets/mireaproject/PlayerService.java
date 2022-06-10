@@ -10,9 +10,6 @@ import android.provider.MediaStore;
 public class PlayerService extends Service {
     private MediaPlayer mediaPlayer;
 
-    public PlayerService() {
-    }
-
     @Override
     public IBinder onBind(Intent intent) {
         // TODO: Return the communication channel to the service.

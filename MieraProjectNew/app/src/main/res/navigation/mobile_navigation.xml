@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.poltavets.mieraprojectnew.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.poltavets.mieraprojectnew.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.poltavets.mieraprojectnew.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <!-- practice 3 -->
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.CalculatorFragment"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+
+    <!-- practice 4-->
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.PlayerFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+
+    <!-- practice 5 -->
+    <fragment
+        android:id="@+id/threeSensorsFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.ThreeSensorsFragment"
+        android:label="fragment_three_sensors"
+        tools:layout="@layout/fragment_three_sensors" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/recorderFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.RecorderFragment"
+        android:label="fragment_recorder"
+        tools:layout="@layout/fragment_recorder" />
+
+    <!-- practice 6 -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.practice6_stories.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+
+    <!-- practice 7 -->
+    <fragment
+        android:id="@+id/fireBaseAuthFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.FireBaseAuth"
+        android:label="fragment_fire_base_auth"
+        tools:layout="@layout/fragment_fire_base_auth" />
+    <fragment
+        android:id="@+id/infoFromNetFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.InfoFromNetFragment"
+        android:label="fragment_info_from_net"
+        tools:layout="@layout/fragment_info_from_net" />
+
+    <!-- practice 8 -->
+    <fragment
+        android:id="@+id/dataBaseFragment"
+        android:name="ru.mirea.poltavets.mieraprojectnew.DataBaseFragment"
+        android:label="fragment_data_base"
+        tools:layout="@layout/fragment_data_base" />
+
+    <!-- practice 9 -->
+    <fragment
+        android:id="@+id/mapsFragment2"
+        android:name="ru.mirea.poltavets.mieraprojectnew.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

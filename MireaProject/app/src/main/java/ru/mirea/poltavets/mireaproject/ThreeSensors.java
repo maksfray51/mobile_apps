@@ -75,7 +75,7 @@ public class ThreeSensors extends Fragment implements SensorEventListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_music_player, container, false);
+        return inflater.inflate(R.layout.fragment_sensor, container, false);
     }
 
     @Override

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">MieraProjectNew</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="calculatorFragment">Calculator</string>
+    <string name="webViewFragment">Web View</string>
+    <string name="playerFragment">Player</string>
+    <string name="threeSensorsFragment">Sensors</string>
+    <string name="cameraFragment">One photo</string>
+    <string name="recorderFragment">Recorder</string>
+
+    <!-- practice 6 -->
+    <string name="settingsFragment">Settings</string>
+    <string name="histiryFragmentTitle">History</string>
+    <string name="settingsSaveButton">Save</string>
+    <string name="addStory">Add</string>
+    <string name="nameForStory">Elon Musk</string>
+    <string name="ageForStory">50 years</string>
+    <string name="contentDescrpElon">photo of Elon Musk</string>
+
+    <!-- practice 7 -->
+    <string name="fireBaseSignIn">Sign in</string>
+    <string name="fireBaseEmail">E-mail</string>
+    <string name="fireBasePassword">Password</string>
+    <string name="fireBaseCreate">Create account</string>
+    <string name="fireBaseSignout">Sign out</string>
+    <string name="fireBaseStatus">Sign out</string>
+    <string name="mainActivityBtnAuth">Authentication</string>
+
+    <!-- for firebase -->
+    <string name="google_sign_in">Google Sign In</string>
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with
+        Firebase.</string>
+    <string name="hint_user_id">User ID</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="error_sign_in_failed">Sign in failed, see logs for details.</string>
+
+    <!-- for InfoFromNet -->
+    <string name="infoFromNetTitle">Time from net</string>
+    <string name="infoFromNetBtn">Let\'s try to get time!</string>
+    <string name="infoFromNetTime">00:00</string>
+
+    <!-- practice 8 dataBase -->
+    <string name="dataBaseTitle">Data Base</string>
+    <string name="dataBaseInputName">Введите имя</string>
+    <string name="dataBaseInputSurname">Введите фамилию</string>
+    <string name="dataBaseSaveBtn">Save</string>
+    <string name="dataBaseAddNewUserBtn">Add new user</string>
+
+    <!-- practice 9 Maps -->
+    <string name="mapsFragmentTitle">Maps</string>
+
+
+    <string-array name="language_array">
+        <item>Russian</item>
+        <item>English</item>
+    </string-array>
+</resources>

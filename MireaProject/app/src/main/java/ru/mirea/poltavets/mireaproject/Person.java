@@ -1,8 +1,5 @@
 package ru.mirea.poltavets.mireaproject;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Person {
     String name, age;
     int photoId;

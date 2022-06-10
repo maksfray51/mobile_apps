@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewUserDBActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/dataBaseInputName" />
+
+        <EditText
+            android:id="@+id/userSurname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/dataBaseInputSurname"/>
+
+        <Button
+            android:id="@+id/saveNewUserBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/dataBaseSaveBtn"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

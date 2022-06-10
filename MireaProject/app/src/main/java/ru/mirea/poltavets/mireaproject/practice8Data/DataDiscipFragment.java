@@ -6,9 +6,9 @@ import android.os.Bundle;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
-//import androidx.lifecycle.LifecycleOwner;
+import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ViewModelProvider;
-//import androidx.lifecycle.ViewModelStoreOwner;
+import androidx.lifecycle.ViewModelStoreOwner;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -40,13 +40,13 @@ public class DataDiscipFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_data_discip, container, false);
 
         if (getActivity() != null){
-            subjectsViewModel = new ViewModelProvider(getActivity()).get(SubjectsViewModel.class);
-            subjectsViewModel.getDiscipLiveData().observe(getActivity(), this::onChanged);
+            subjectsViewModel = new ViewModelProvider((ViewModelStoreOwner) getActivity()).get(SubjectsViewModel.class);
+            subjectsViewModel.getDiscipLiveData().observe((LifecycleOwner) getActivity(), this::onChanged);
         }
         view.findViewById(R.id.btnAddDiscip).setOnClickListener(this::onNewSubjectClicked);
 
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getContext());
-        recyclerView = (RecyclerView) view.findViewById(R.id.discipRecyclerView);
+        recyclerView = view.findViewById(R.id.discipRecyclerView);
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(discipAdapter);

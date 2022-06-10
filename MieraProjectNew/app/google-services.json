@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847344021053",
+    "project_id": "mieraprojectnew",
+    "storage_bucket": "mieraprojectnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847344021053:android:d3f58be9888d5d0cfc8454",
+        "android_client_info": {
+          "package_name": "ru.mirea.poltavets.mieraprojectnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847344021053-7fufepil6580nq43qglm284tru7oqev8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT_3ga9WZokdsjPhMKGD22l4evcJjh0LE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847344021053-7fufepil6580nq43qglm284tru7oqev8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

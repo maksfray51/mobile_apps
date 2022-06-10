@@ -27,7 +27,6 @@ public class InfoFromWebFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
@@ -40,22 +39,20 @@ public class InfoFromWebFragment extends Fragment {
         return view;
     }
     private void updateInfo(View view) {
-        if (android.os.Build.VERSION.SDK_INT > 8) {
-            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-            StrictMode.setThreadPolicy(policy);
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
 
-            String time = "";
-            try {
-                Socket socket = new Socket(host, port);
-                BufferedReader reader = SocketUtils.getReader(socket);
-                reader.readLine();
-                time = reader.readLine();
-                Log.d(TAG, time);
-                socket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            timeTV.setText(time);
+        String time = "";
+        try {
+            Socket socket = new Socket(host, port);
+            BufferedReader reader = SocketUtils.getReader(socket);
+            reader.readLine();
+            time = reader.readLine();
+            Log.d(TAG, time);
+            socket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+        timeTV.setText(time);
     }
 }

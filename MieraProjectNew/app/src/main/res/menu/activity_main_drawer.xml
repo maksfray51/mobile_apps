@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+
+        <!-- practice 3-->
+        <item
+            android:id="@+id/calculatorFragment"
+            android:title="@string/calculatorFragment"
+            />
+        <item
+            android:id="@+id/webViewFragment"
+            android:title="@string/webViewFragment"
+            />
+
+        <!-- practice 4 -->
+        <item
+            android:id="@+id/musicFragment"
+            android:title="@string/playerFragment"
+            />
+
+        <!-- practice 5 -->
+        <item
+            android:id="@+id/threeSensorsFragment"
+            android:title="@string/threeSensorsFragment"
+            />
+        <item
+            android:id="@+id/cameraFragment"
+            android:title="@string/cameraFragment"
+            />
+        <item
+            android:id="@+id/recorderFragment"
+            android:title="@string/recorderFragment"
+            />
+
+        <!-- practice 6 -->
+        <item
+            android:id="@+id/settingsFragment"
+            android:title="@string/settingsFragment"
+            />
+        <item
+            android:id="@+id/historyFragment"
+            android:title="@string/histiryFragmentTitle" />
+
+        <!-- PRACTICE 7-->
+        <item
+            android:id="@+id/infoFromNetFragment"
+            android:title="@string/infoFromNetTitle"
+            />
+
+        <!-- practice 8 -->
+        <item
+            android:id="@+id/dataBaseFragment"
+            android:title="@string/dataBaseTitle"
+            />
+
+        <!-- practice 9 -->
+        <item
+            android:id="@+id/mapsFragment2"
+            android:title="@string/mapsFragmentTitle"
+            />
+    </group>
+</menu>
