@@ -66,29 +66,28 @@ public class MapsFragment extends Fragment{
                                 "г.Североморск, ул. Морская, д. 7. " +
                                 "Координаты: 69.074878, 33.433085"));
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(homeTown,2));
-            }
 
+
+
+
+                googleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+
+                    @Override
+                    public void onMapClick(@NonNull LatLng latLng) {
+
+                        MarkerOptions markerOptions = new MarkerOptions();
+                        markerOptions.position(latLng);
+                        markerOptions.title(latLng.latitude + " : " + latLng.longitude);
+                        //googleMap.clear();
+                        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
+                                latLng, 10
+                        ));
+                        googleMap.addMarker(markerOptions);
+                    }
+                });
+            }
         });
         return view;
-    }
-
-
-//    @Override
-//    public void onMapClick(@NonNull LatLng latLng) {
-//        CameraPosition cameraPosition = new CameraPosition.Builder().target(latLng).zoom(12).build();
-//        map.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
-//
-//        Date currentTime = Calendar.getInstance().getTime();
-//        Log.d("MAP", String.valueOf(latLng));
-//        Log.d("TIME", String.valueOf(currentTime));
-//
-//        addNewMarker(currentTime, latLng);
-//    }
-
-    public void addNewMarker(Date date, LatLng latLng){
-        MarkerOptions marker = new MarkerOptions().title("отметочка была сделана" + date).position(latLng);
-        map.addMarker(marker);
-        mapMarker.add(marker);
     }
 }
 
